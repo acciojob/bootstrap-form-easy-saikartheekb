@@ -13,21 +13,21 @@
 	  <div class="form-group row">
 		  <div class="col">
 			  <label for="first-name-input" class="form-label">First Name</label>
-			  <input class="form-control required" id="first-name-input" type="text">
+			  <input class="form-control" id="first-name-input" type="text" required>
 			  <div class="invalid-feedback">
 	           First name required!
 	          </div>
 		  </div>
 		  <div class="col">
 			  <label for="last-name-input" class="form-label">Last Name</label>
-			  <input class="form-control required" id="last-name-input" type="text">
+			  <input class="form-control" id="last-name-input" type="text" required>
 			  <div class="invalid-feedback">
 	           Last name required!
 	          </div>
 		  </div>
 		  <div class="col">
 			  <label for="email-input" class="form-label">Email Address</label>
-		      <input type="email" class="form-control required" id="email-input" aria-describedby="emailHelp" placeholder="xyz@abc.com">
+		      <input type="email" class="form-control" required id="email-input" aria-describedby="emailHelp" placeholder="xyz@abc.com">
 			  <div class="invalid-feedback">
 	           Email required!
 	          </div>
@@ -36,14 +36,14 @@
 	  <div class="form-group row">
 		  <div class="col-6">
 			  <label for="college-input" class="form-label">College</label>
-			  <input class="form-control required" id="college-input" type="text">
+			  <input class="form-control" required id="college-input" type="text">
 			  <div class="invalid-feedback">
 	           Please provide a vaild college.
 	          </div>
 		  </div>
 		  <div class="col">
 			  <label for="grad-year-select" class="form-label">Graduation Year</label>
-			    <select class="form-control form-select" id="grad-year-select">
+			    <select class="form-control form-select" required id="grad-year-select">
 				  <option selected>Choose...</option>
 			      <option>2020</option>
 			      <option>2021</option>
@@ -55,8 +55,8 @@
 	          </div>
 		  </div>
 		  <div class="col">
-			  <label for="roll-no-input" class="form-label">Roll No.</label>
-		      <input type="text" class="form-control required" id="roll-no-input" aria-describedby="emailHelp">
+			  <label for="roll-no-input"  class="form-label">Roll No.</label>
+		      <input type="text" class="form-control" required id="roll-no-input" aria-describedby="emailHelp">
 			  <div class="invalid-feedback">
 	           Please provide a valid Roll no.
 	          </div>
@@ -65,7 +65,7 @@
 	  
 	  <div class="form-check form-group">
 	    <input type="checkbox" class="form-check-input" id="conditions-checkbox">
-	    <label class="form-check-label" class="form-label" for="conditions-checkbox">Agree to terms and conditions</label>
+	    <label class="form-check-label" required class="form-label" for="conditions-checkbox">Agree to terms and conditions</label>
 		<div class="invalid-feedback">
 	           You must agree before sumbitting.
 	    </div>  
